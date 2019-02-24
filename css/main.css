@@ -1,0 +1,15 @@
+:root {
+	--darkBlue: #2d6fa0;
+	--blue: #4899d4;
+}
+
+body { margin: 0; }
+canvas { width: 100%; height: 100% }
+
+.world {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: linear-gradient(var(--blue), var(--darkBlue));
+}
